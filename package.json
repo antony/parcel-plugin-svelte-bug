@@ -8,11 +8,11 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "parcel": "^1.8.1",
-    "svelte": "^2.5.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "parcel-plugin-svelte": "^1.1.2"
+    "parcel": "^1.8.1",
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-svelte": "1.1.2",
+    "svelte": "^2.5.0"
   }
 }
