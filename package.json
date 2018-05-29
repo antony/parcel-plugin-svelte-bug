@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./index.html"
+    "start": "parcel --log-level 3 ./index.html",
+    "build": "parcel build ./index.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "parcel": "^1.8.1",
     "parcel-bundler": "^1.8.1",
-    "parcel-plugin-svelte": "1.1.2",
-    "svelte": "^2.5.0"
+    "parcel-plugin-svelte": "^1.1.6",
+    "svelte": "^2.7.0"
   }
 }

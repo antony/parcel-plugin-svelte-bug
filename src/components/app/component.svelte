@@ -1,9 +1,13 @@
 <p>
-  Hello { name }, the time is <span class="the-time">{ hours }:{ minutes }:{ seconds }</span>
+  First Component <Second />
 </p>
 
-<style>
-  .the-time {
-    font-weight: bold;
+<script>
+  import Second from '../second/component.svelte'
+
+  export default {
+    components: {
+      Second
+    }
   }
-</style>
+</script>
